@@ -1,48 +1,54 @@
-# E-Commerce Sales Analysis — SQL + Power BI
+# E-Commerce Sales Analysis — MySQL
 
 ## Objective
-Analyze Brazilian e-commerce sales data using MySQL and prepare a clean dataset for Power BI.
+
+Analyze Brazilian e-commerce transaction data using MySQL to identify sales trends, customer behavior, product performance, and order patterns.
 
 ## Tools
+
 - MySQL 8.0
-- Power BI
 - SQL
 
-## SQL skills demonstrated
-SELECT, WHERE, GROUP BY, ORDER BY, JOIN, SUM, COUNT, AVG, CASE, CTEs, CREATE VIEW.
+## SQL Skills Demonstrated
 
-## Dashboard KPIs
-- Total Sales
-- Total Orders
-- Total Customers
-- Average Order Value
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- JOINs
+- SUM, COUNT, AVG
+- CASE statements
+- CTEs
+- CREATE VIEW
 
-## Suggested Power BI visuals
-1. Monthly Sales Trend
-2. Sales by Customer State
-3. Top 10 Product Categories
-4. Order Status Distribution
-5. Top 10 Products
-6. Table of category performance
+## Analysis Performed
 
-## How to run
-1. Copy these four CSVs into:
-   C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/
-   - olist_customers_dataset.csv
-   - olist_orders_dataset.csv
-   - olist_products_dataset.csv
-   - olist_order_items_dataset.csv
+- Total sales
+- Total orders
+- Total customers
+- Average order value
+- Monthly sales trends
+- Sales by customer state
+- Top product categories
+- Order status distribution
+- Top products by sales
+- Average item price by category
+- Average delivery time
+- Order performance classification using CASE
+- Monthly sales analysis using a CTE
+- Customer order frequency
+- Reusable SQL view combining customer, order, product, and transaction data
 
-2. Open MySQL Workbench.
-3. Open `ecommerce_sales_analysis.sql`.
-4. Run the script.
-5. The script creates the database, tables, imports data, runs analysis queries, and creates `vw_sales_analysis`.
-6. In Power BI, connect to MySQL and select `ecommerce_sales.vw_sales_analysis`.
+## Dataset
 
-## Resume project title
-E-Commerce Sales Analysis Dashboard | MySQL, Power BI, DAX
+Olist Brazilian E-Commerce Public Dataset.
 
-## Resume bullets
-- Analyzed e-commerce transaction data using MySQL to identify sales trends, customer behavior, product performance, and order patterns.
-- Used SQL joins, aggregations, CASE statements, and CTEs to transform and analyze multi-table transactional data.
-- Created a Power BI-ready SQL view for interactive reporting of sales, orders, customers, product categories, and regional performance.
+The project uses multiple related e-commerce tables including customers, orders, products, and order items.
+
+## Project Outcome
+
+The project demonstrates practical SQL skills for joining, aggregating, analyzing, and extracting business insights from relational e-commerce data.
+
+## Resume Project Title
+
+**E-Commerce Sales Analysis | MySQL**
